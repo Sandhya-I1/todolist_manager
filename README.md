@@ -1,8 +1,10 @@
 # todolist_manager
 Simple To-Do List / Task Manager in Python (CLI)
 
-A simple command-line application that helps manage tasks — built using pure Python. Users can add tasks, view them, delete tasks, and mark tasks as completed. Tasks are saved in a file for future use.
+A simple and useful **command-line application** to manage personal tasks.  
+Users can **add**, **view**, **delete**, and **mark tasks as completed**, with data saved in a file for future use.
 
+This beginner-friendly project demonstrates practical Python concepts like loops, functions, lists, and **file handling**.
 
 ##  Features
 - Add tasks easily
@@ -18,9 +20,13 @@ A simple command-line application that helps manage tasks — built using pure P
 | Language | Python |
 | Storage | `.txt` file |
 
----
 
-## How to Run
+## ▶️ How to Run
+
+### Prerequisites
+- Python 3.7 or above installed
+
+### Run the program
 ```bash
 python todolist_manager.py
 
@@ -30,6 +36,21 @@ python todolist_manager.py
 3. Delete task
 4. Complete task
 5. Exit
+Choose an option: 2
+Enter task name: Complete AI project
+Task added successfully.
 
-```bash
-python todo_manager.py
+Choose an option: 1
+Your Tasks:
+1. Complete AI project
+
+Choose an option: 4
+Enter task number to mark complete: 1
+Task marked as complete.
+
+Choose an option: 1
+Your Tasks:
+1. Complete AI project ✔
+
+
+
